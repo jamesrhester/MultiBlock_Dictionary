@@ -252,8 +252,9 @@ save_diffrn.diffrn_measurement_id
     _definition.update            2026-04-22
     _description.text
 ;
-    Identifies the positioner used to collect the diffraction data.
-    This is a pointer to _diffrn_measurement.id.
+    Identifies the particular combination of sample mount, positioner,
+    and scan strategy used to collect the diffraction data. This is a
+    pointer to _diffrn_measurement.id.
 ;
     _name.category_id             diffrn
     _name.object_id               diffrn_measurement_id
