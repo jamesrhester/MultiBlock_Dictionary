@@ -256,7 +256,7 @@ save_diffrn.diffrn_measurement_id
     This is a pointer to _diffrn_measurement.id.
 ;
     _name.category_id             diffrn
-    _name.object_id               measurement_id
+    _name.object_id               diffrn_measurement_id
     _name.linked_item_id          '_diffrn_measurement.id'
     _type.purpose                 Link
     _type.source                  Assigned
