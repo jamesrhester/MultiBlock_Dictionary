@@ -283,9 +283,9 @@ save_diffrn.id
 
 save_
 
-save_diffrn.positioner_id
+save_diffrn.diffrn_measurement_id
 
-    _definition.id                '_diffrn.positioner_id'
+    _definition.id                '_diffrn.diffrn_measurement_id'
     _definition.update            2026-04-22
     _description.text
 ;
@@ -293,7 +293,7 @@ save_diffrn.positioner_id
     This is a pointer to _diffrn_measurement.id.
 ;
     _name.category_id             diffrn
-    _name.object_id               positioner_id
+    _name.object_id               measurement_id
     _name.linked_item_id          '_diffrn_measurement.id'
     _type.purpose                 Link
     _type.source                  Assigned
